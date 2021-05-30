@@ -10,4 +10,8 @@ def main():
         abbreviated_word = input().lower() 
         print('\n')
 
+        if abbreviated_word == 'nu':
+            print('create username')
+            created_user_name = input()
+
         
