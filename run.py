@@ -14,4 +14,10 @@ def main():
             print('create username')
             created_user_name = input()
 
+            print('create password')
+            created_user_password = input()
+
+            print('confirm password')
+            confirm_password = input()
+
         
