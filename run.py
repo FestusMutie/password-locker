@@ -27,4 +27,13 @@ def main():
                 print('confirm your password')
                 confirm_password = input()
 
+            else:
+                print(f"congratulations{created_user_name}!account creation successful")
+                print('\n')
+                print("proceed to login")
+                print("username")
+                entered_username = input()
+                print("your password")
+                entered_password = input()
+
         
