@@ -9,4 +9,6 @@ def __init__(self,user_name,password):
     self.password = password
 
 def save_user(self):
-     
+   '''
+    save_user method saves a new user objects to the user_list
+    '''  
