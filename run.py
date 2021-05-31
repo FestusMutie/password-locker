@@ -21,14 +21,14 @@ def main():
             confirm_password = input()
 
             while confirm_password != created_user_password:
-                print('invalid password did not match!')
-                print('enter your password')
+                print('This password is invalid!')
+                print('enter the correct password!')
                 created_user_password = input()
                 print('confirm your password')
                 confirm_password = input()
 
             else:
-                print(f"congratulations{created_user_name}!account creation successful")
+                print(f"congratulations{created_user_name}!your account has been successfully created!")
                 print('\n')
                 print("proceed to login")
                 print("username")
@@ -42,5 +42,38 @@ def main():
                 entered_username = input()
                 print("your password")
                 entered_password = input()
+
+            else:
+                print(f"welcome: {entered_username} to your account")
+                print("\n")
+
+        elif abbreviated_word == 'lgn':
+            print("welcome")
+            print("Enter your user name") 
+            default_user_name = input()
+
+            print("Enter password")
+            default_user_password =input()
+            print('\n')
+            while default_user_name != 'testuser' or default_user_password != '09876':
+                print("wrong userName or password.Username 'testuser' and password '09876'")
+                print("Enter user name")
+                default_user_name = input()
+
+                print("Enter password")
+                default_user_password = input()
+                print("\n")
+            else:
+                print("login success")
+                print('\n')
+                print('\n')
+
+        elif abbreviated_word == 'ext': 
+            break
+        else:
+            print("Enter a valid password to continue")  
+
+if __name__ == '__main__':
+    main()
 
         
