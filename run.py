@@ -1,5 +1,6 @@
 import random
 from user import User
+from Credentials import Credentials
 
 
 def main():
