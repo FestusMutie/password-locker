@@ -1,7 +1,7 @@
 class Credentials:
     '''
     Created class for credentials
-    '''  
+    '''
     def __init__(self, account_name, account_password):
         self.account_name = account_name
         self.account_password = account_password
@@ -12,10 +12,10 @@ class Credentials:
         '''
         self.credentials_list.append(self)
     def delete_credential(self):
-                '''
+        '''
         Method that deletes a particular credential
         '''
-    Credentials.credentials_list.remove(self)
+        Credentials.credentials_list.remove(self)
     @classmethod
     def find_by_name(cls, account_name):
         '''
@@ -46,3 +46,4 @@ class Credentials:
         Method which displays the current credentials
         '''
         return cls.credentials_list
+
