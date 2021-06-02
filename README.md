@@ -1,16 +1,16 @@
 ### Password locker
 
 ## Description
-This a simple web application that helps the user to manage their passwords and even generate new passwords .
+This is a simple web application that helps the user to manage their passwords and even generate new passwords .
 
 ## Behaviour Driven Development
+Input:"Enter username"
 
+Input:"Enter your password"
 
+Output:"Account is successfully created"
 
-
-
-
-
+Output:"Username or password is invalid"
 
 
 ## Installation Setup
